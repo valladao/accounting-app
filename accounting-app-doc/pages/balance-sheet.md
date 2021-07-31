@@ -21,17 +21,17 @@ Get from: [[scripts/balance-sheet]]
 {
 	[
 		account: "Cash",
-		total: XX,XX,
+		total: XX.XX,
 		type: "assets"
 	],
 	[
 		account: "Accounts Payable",
-		total: XX,XX
+		total: XX.XX
 		type: "liabilities"
 	],
 	[
 		account: "Earnings",
-		total: XX,XX
+		total: XX.XX
 		type: "equity"
 	],
 }

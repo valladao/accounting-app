@@ -3,7 +3,9 @@ tags: architecture
 ---
 ### Tables:
 [[accounts]]
-[[entries]]
+[[migrations/entries]]
+[[categories]]
 
 ### Views:
 [[migrations/balance-sheet]]
+[[migrations/income-statement]]

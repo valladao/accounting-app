@@ -9,5 +9,5 @@ Columns:
 - accountType
 
 TABLES:
-[[entries]]
+[[migrations/entries]]
 [[accounts]]

@@ -12,7 +12,7 @@ Access [[back-end]]
 
 
 **Income Statement:**
-- [[income-statement]]
+- [[pages/income-statement]]
 
 **Cash Flow Statement:**
 - [[cash-flow-statement]]
