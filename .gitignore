@@ -1,3 +1,7 @@
+# Obsidian hidden files
+.obsidian
+.trash
+
 # Logs
 logs
 *.log
