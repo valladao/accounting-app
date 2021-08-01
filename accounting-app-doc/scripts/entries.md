@@ -1,23 +1,12 @@
 ---
-tags: front-end
+tags: script front-end
 ---
-### Entries
+### function getFormData()
 
- | 
---- | ---
-Date |
-Account |
-Category |
-Value |
-Description |
+Get data from: [[back-end]]
 
- | 
---- | ---
-Submit |
+Export JSON: *formData*
 
-### Form Data
-
-Get from: [[scripts/entries]]
 ```js
 {
 	[
@@ -40,5 +29,3 @@ Get from: [[scripts/entries]]
 	]
 }
 ```
-
-

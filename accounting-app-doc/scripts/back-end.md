@@ -31,7 +31,7 @@ Export JSON: *balanceSheet*
 
 ### endpoint get(/income-statement)
 
-From:
+From: [[migrations/income-statement]]
 
 Export JSON: *incomeStatement*
 
@@ -51,6 +51,35 @@ Export JSON: *incomeStatement*
 		type: "expense",
 		category: "Expense",
 		value: 1000.00
+	]
+}
+```
+
+### endpoint get(/form-data)
+
+Get data from: [[accounts]] and [[categories]]
+
+Export JSON: *formData*
+
+```js
+{
+	[
+		accountID: 1
+		accountName: "Cash"
+	],
+	[
+		accountID: 2
+		accountName: "Bank Account"
+	]
+},
+{
+	[
+		categoryID: 1
+		categoryName: "Sales"
+	],
+	[
+		categoryID: 2
+		categoryName: "Cost"
 	]
 }
 ```
