@@ -22,8 +22,8 @@ Submit Entry | Clear
 
 Date | Account | Category | Value | Description
 --- | --- | --- | --- | ---
- |
-  |
+ entryList[x].date | entryList[x].account | entryList[x].category | entryList[x].value | entryList.description
+...  | ... | ... | ... | ...
 
 
 ### Balance
@@ -41,7 +41,7 @@ Close & Submit |
 ---
 
 ### Form Data
-
+Function: getFormData()
 Get from: [[scripts/entries]]
 ```js
 {
@@ -77,6 +77,9 @@ Idea is to use HTML validation here
 
 ---
 ### Submit Entry Button
+Variables: entry (Object attached in form inputs)
+Function: submitEntry(entry)
+Done by: [[scripts/entries]]
 
 1. Check data validation
 2. If OK, add data from form to table.
@@ -87,13 +90,19 @@ Idea is to use HTML validation here
 
 ---
 ### Clear Button
+Function: clearForm()
+Done by: [[scripts/entries]]
+
 1. Clear form
 2. Clear *Data Array*
 
 ---
 ### Close & Submit
+Function: postEntry()
+Done by: [[scripts/entries]]
 
 1. Check balance (must be equal both sizes)
 2. Apply similar form validation to *Data Array* before submit
-3. If error, show error
-4. If ok, show submit OK
+3. Post
+4. If error, show error
+5. If ok, show submit OK
