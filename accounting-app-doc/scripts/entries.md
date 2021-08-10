@@ -1,6 +1,8 @@
 ---
 tags: script front-end
 ---
+Execute getFormData() at script/page load.
+
 ### Variable list
 var | type
 --- | ---
@@ -14,28 +16,7 @@ Get data from: [[back-end]]
 
 Export JSON: *formData*
 
-```js
-{
-	[
-		accountID: 1
-		accountName: "Cash"
-	],
-	[
-		accountID: 2
-		accountName: "Bank Account"
-	]
-},
-{
-	[
-		categoryID: 1
-		categoryName: "Sales"
-	],
-	[
-		categoryID: 2
-		categoryName: "Cost"
-	]
-}
-```
+[[back-end#^640001]]
 
 ---
 ### function checkData()
@@ -50,16 +31,17 @@ Export JSON: *formData*
 ---
 ### function submitEntry(entry)
 
-1. Apply checkData(entry)
-2. If OK, add information to *entryList*
-3. Check if entry contains category: if so add an automatic entry for "Earnings / Loss" directly to *entryList*
-5. Sum added value to balance.
-6. 
-7. If error, show error
 
+>1. Apply checkData(entry)
+>2. If OK, add information to *entryList*
+>3. Check if entry contains category: if so add an automatic entry for "Earnings / Loss" directly to *entryList*
+>5. For each entryList, sum added value to balance.
+>6. Aaaaa 
+>7. If error, show error
+
+^f3f987
 
 Get data from: [[back-end]]
-
 Export JSON: *formData*
 
 ---

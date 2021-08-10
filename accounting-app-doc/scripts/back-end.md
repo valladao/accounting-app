@@ -64,22 +64,28 @@ Export JSON: *formData*
 ```js
 {
 	[
-		accountID: 1
-		accountName: "Cash"
+		accountID: 1,
+		accountName: "Cash",
+		accountType: "assets"
 	],
 	[
 		accountID: 2
 		accountName: "Bank Account"
+		accountType: "assets"
 	]
 },
 {
 	[
 		categoryID: 1
 		categoryName: "Sales"
+		accountType: "equity"
 	],
 	[
 		categoryID: 2
 		categoryName: "Cost"
+		accountType: "equity"
 	]
 }
 ```
+
+^640001

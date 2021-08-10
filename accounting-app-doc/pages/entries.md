@@ -1,6 +1,7 @@
 ---
 tags: front-end
 ---
+## Page Visual
 ### Entries
 
 Instructions: Xxxxxx xxxxxx xxxxx...
@@ -9,8 +10,8 @@ Instructions: Xxxxxx xxxxxx xxxxx...
 --- | ---
 Type | [] Deposit [] Withdraw
 Date |
-Account |
-Category |
+Account | Select _formData_
+Category | Select _formData_
 Value |
 Description |
 
@@ -39,37 +40,18 @@ Close & Submit |
 
 
 ---
+## Page Control
 
 ### Form Data
 Function: getFormData()
 Get from: [[scripts/entries]]
-```js
-{
-	[
-		accountID: 1
-		accountName: "Cash"
-	],
-	[
-		accountID: 2
-		accountName: "Bank Account"
-	]
-},
-{
-	[
-		categoryID: 1
-		categoryName: "Sales"
-	],
-	[
-		categoryID: 2
-		categoryName: "Cost"
-	]
-}
-```
+
+[[back-end#^640001]]
 
 ---
 
 ### Form Validation
-Idea is to use HTML validation here
+To use HTML validation here
 - Check if we have Date
 - Check if we have Account
 - Check if value is not 0
@@ -81,12 +63,7 @@ Variables: entry (Object attached in form inputs)
 Function: submitEntry(entry)
 Done by: [[scripts/entries]]
 
-1. Check data validation
-2. If OK, add data from form to table.
-3. If entry contains category, add an automatic entry for "Earnings / Loss"
-4. Sum added value to balance.
-5. Add information to *Data Array*
-6. If error, show error
+[[scripts/entries#^f3f987]]
 
 ---
 ### Clear Button
